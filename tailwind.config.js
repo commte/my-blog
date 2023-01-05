@@ -33,7 +33,9 @@ module.exports = {
         sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: colors.teal,
+        // テーマカラー設定
+        // https://tailwindcss.com/docs/customizing-colors
+        primary: colors.sky,
         gray: colors.neutral,
       },
       typography: (theme) => ({
